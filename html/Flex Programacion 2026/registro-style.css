@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /*/es el 100% del alto de la vista/*/
+}
+
+body {
+    background-color: #e9f4f3;
+    font-family: "Fraunces", serif;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    gap: 15px;
+
+}
+
+.login-title {
+    display: flex;
+    justify-content: center;
+    color: #399d95;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #136175;
+}
+
+.login-button {
+    background-color: #136175;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 30px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #17857c;
+    width: 150px;
+    border-radius: 5px;
+    align-self: center;
+}
+
+.linkA {
+    color: white;
+    text-decoration: none;
+}
